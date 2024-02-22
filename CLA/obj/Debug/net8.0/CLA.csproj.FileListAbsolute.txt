@@ -1,0 +1,14 @@
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\bin\Debug\net8.0\CLA.exe
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\bin\Debug\net8.0\CLA.deps.json
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\bin\Debug\net8.0\CLA.runtimeconfig.json
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\bin\Debug\net8.0\CLA.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\bin\Debug\net8.0\CLA.pdb
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\CLA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\CLA.AssemblyInfoInputs.cache
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\CLA.AssemblyInfo.cs
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\CLA.csproj.CoreCompileInputs.cache
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\CLA.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\refint\CLA.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\CLA.pdb
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\CLA.genruntimeconfig.cache
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\ref\CLA.dll

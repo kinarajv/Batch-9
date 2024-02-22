@@ -1,0 +1,14 @@
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\bin\Debug\net8.0\Animals.exe
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\bin\Debug\net8.0\Animals.deps.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\bin\Debug\net8.0\Animals.runtimeconfig.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\bin\Debug\net8.0\Animals.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\bin\Debug\net8.0\Animals.pdb
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\Animals.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\Animals.AssemblyInfoInputs.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\Animals.AssemblyInfo.cs
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\Animals.csproj.CoreCompileInputs.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\Animals.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\refint\Animals.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\Animals.pdb
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\Animals.genruntimeconfig.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\ref\Animals.dll

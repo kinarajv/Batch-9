@@ -1,0 +1,14 @@
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\bin\Debug\net8.0\HumanAddition.exe
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\bin\Debug\net8.0\HumanAddition.deps.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\bin\Debug\net8.0\HumanAddition.runtimeconfig.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\bin\Debug\net8.0\HumanAddition.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\bin\Debug\net8.0\HumanAddition.pdb
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\HumanAddition.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\HumanAddition.AssemblyInfoInputs.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\HumanAddition.AssemblyInfo.cs
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\HumanAddition.csproj.CoreCompileInputs.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\HumanAddition.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\refint\HumanAddition.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\HumanAddition.pdb
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\HumanAddition.genruntimeconfig.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\ref\HumanAddition.dll

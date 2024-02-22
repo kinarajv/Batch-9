@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HumanAddition/1.0.0": {
+        "runtime": {
+          "HumanAddition.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HumanAddition/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\bin\Debug\net8.0\Interfaces.exe
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\bin\Debug\net8.0\Interfaces.deps.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\bin\Debug\net8.0\Interfaces.runtimeconfig.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\bin\Debug\net8.0\Interfaces.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\bin\Debug\net8.0\Interfaces.pdb
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfoInputs.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfo.cs
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\Interfaces.csproj.CoreCompileInputs.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\Interfaces.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\refint\Interfaces.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\Interfaces.pdb
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\Interfaces.genruntimeconfig.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\ref\Interfaces.dll

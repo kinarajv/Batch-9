@@ -1,0 +1,14 @@
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\Overriding.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\Overriding.AssemblyInfoInputs.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\Overriding.AssemblyInfo.cs
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\Overriding.csproj.CoreCompileInputs.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\bin\Debug\net8.0\Overriding.exe
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\bin\Debug\net8.0\Overriding.deps.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\bin\Debug\net8.0\Overriding.runtimeconfig.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\bin\Debug\net8.0\Overriding.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\bin\Debug\net8.0\Overriding.pdb
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\Overriding.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\refint\Overriding.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\Overriding.pdb
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\Overriding.genruntimeconfig.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\ref\Overriding.dll
