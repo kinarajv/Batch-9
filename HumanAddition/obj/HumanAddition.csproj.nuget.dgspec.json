@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj": {}
+    "C:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj": {
+    "C:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj",
+        "projectUniqueName": "C:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj",
         "projectName": "HumanAddition",
-        "projectPath": "c:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj",
+        "projectPath": "C:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj",
         "packagesPath": "C:\\Users\\kinar\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\obj\\",
+        "outputPath": "C:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kinar\\AppData\\Roaming\\NuGet\\NuGet.Config",
