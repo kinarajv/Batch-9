@@ -16,6 +16,7 @@ class Program
 			}
 			return a + b;
 		};
+		myFunc += (int a, int b) => a * b;
 		float a = myFunc.Invoke(3, 4);
 		Console.WriteLine(a);
 

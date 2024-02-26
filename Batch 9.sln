@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultDelegateWithReturnTy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethod", "AnonymousMethod\AnonymousMethod.csproj", "{B747FEE1-37F9-4535-86A5-433F8B0F7FC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "event", "event\event.csproj", "{95E805D3-A398-4ACE-AAC9-249C58B14A33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -358,6 +360,10 @@ Global
 		{B747FEE1-37F9-4535-86A5-433F8B0F7FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B747FEE1-37F9-4535-86A5-433F8B0F7FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B747FEE1-37F9-4535-86A5-433F8B0F7FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E805D3-A398-4ACE-AAC9-249C58B14A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E805D3-A398-4ACE-AAC9-249C58B14A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E805D3-A398-4ACE-AAC9-249C58B14A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E805D3-A398-4ACE-AAC9-249C58B14A33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F18562AA-C8B8-452B-B4FE-6698772633AC} = {FF97F6BC-10B7-44DE-8A8B-745DABD2339B}
