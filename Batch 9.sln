@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultDelegate", "DefaultD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultDelegateWithReturnType", "DefaultDelegateWithReturnType\DefaultDelegateWithReturnType.csproj", "{5429CEE2-1652-4D8D-9796-92F22F932D09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethod", "AnonymousMethod\AnonymousMethod.csproj", "{B747FEE1-37F9-4535-86A5-433F8B0F7FC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -352,6 +354,10 @@ Global
 		{5429CEE2-1652-4D8D-9796-92F22F932D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5429CEE2-1652-4D8D-9796-92F22F932D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5429CEE2-1652-4D8D-9796-92F22F932D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B747FEE1-37F9-4535-86A5-433F8B0F7FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B747FEE1-37F9-4535-86A5-433F8B0F7FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B747FEE1-37F9-4535-86A5-433F8B0F7FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B747FEE1-37F9-4535-86A5-433F8B0F7FC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F18562AA-C8B8-452B-B4FE-6698772633AC} = {FF97F6BC-10B7-44DE-8A8B-745DABD2339B}

@@ -12,7 +12,7 @@ class Program
 		MyDelegate del = subscriber.Add;
 
 		//public delegate T2 Func<T,T1,T2>(T data1, T1 data2)
-		Func<int, int, float> action = subscriber.Add;
+		var action = subscriber.Add;
 		Func<int, int, float> action1 = subscriber.Mul;
 		
 
