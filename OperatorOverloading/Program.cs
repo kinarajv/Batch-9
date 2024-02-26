@@ -33,4 +33,8 @@ class Car
 	{
 		return new Car(a.price - b.price);
 	}
+	public static Car operator +(Car a, int b) 
+	{
+		return new Car(a.price + b);
+	}
 }
