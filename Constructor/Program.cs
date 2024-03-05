@@ -1,4 +1,5 @@
-﻿class Program {
+﻿namespace MyProgram;
+static class Program {
 	static void Main() {
 		Employee emp = new Employee("Dion",69);
 		Console.WriteLine(emp.name);
