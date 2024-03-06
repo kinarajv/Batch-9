@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PropertiesVariableMethod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a44dd47d3c95f30ff51e7b1ccaca0143160b999b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e14330ae05449fb83fa7a1cb4916769435ecf07")]
 [assembly: System.Reflection.AssemblyProductAttribute("PropertiesVariableMethod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PropertiesVariableMethod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

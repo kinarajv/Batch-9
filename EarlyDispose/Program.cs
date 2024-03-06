@@ -1,13 +1,14 @@
 ﻿class FileManager {
     public void Write(string path, string message) {
-        StreamWriter stream = new(path);
-        stream.WriteLine(message);
-        stream.Dispose();
+        using (StreamWriter stream = new(path)) {
+            stream.WriteLine(message);
+        }
     }
     public string ReadLine(string path) {
-        StreamReader stream = new(path);
-        string result = stream.ReadLine();
-        stream.Dispose();
+        string result;
+        using(StreamReader stream = new(path)) {
+            result  = stream.ReadLine();
+        }
         return result;
     }
 }
