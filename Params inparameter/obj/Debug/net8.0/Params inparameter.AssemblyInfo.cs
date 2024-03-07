@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Params inparameter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8376992f1e93424e5e79b833d422c5c2f8e0ced6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac6799801295d4d15ebcc43e5e0b93144839e126")]
 [assembly: System.Reflection.AssemblyProductAttribute("Params inparameter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Params inparameter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
