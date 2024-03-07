@@ -173,6 +173,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading", "MultiThre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadParameter", "ThreadParameter\ThreadParameter.csproj", "{9A8FDAC7-1707-4A8E-9672-4B3DBCC4C787}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDelegate", "ThreadDelegate\ThreadDelegate.csproj", "{98912011-E76F-4794-8E31-9B9811C0714C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadWithReturnType", "ThreadWithReturnType\ThreadWithReturnType.csproj", "{D9AF048F-B651-4BD7-9A86-42E71DC77A85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExceptionHandling", "ThreadExceptionHandling\ThreadExceptionHandling.csproj", "{78A4A8D7-7F44-4BC1-AEBD-5465BA66B108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPriority", "ThreadPriority\ThreadPriority.csproj", "{9564BA47-4CCC-48B5-8E74-060B1EC608B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -494,6 +502,22 @@ Global
 		{9A8FDAC7-1707-4A8E-9672-4B3DBCC4C787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A8FDAC7-1707-4A8E-9672-4B3DBCC4C787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A8FDAC7-1707-4A8E-9672-4B3DBCC4C787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98912011-E76F-4794-8E31-9B9811C0714C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98912011-E76F-4794-8E31-9B9811C0714C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98912011-E76F-4794-8E31-9B9811C0714C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98912011-E76F-4794-8E31-9B9811C0714C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AF048F-B651-4BD7-9A86-42E71DC77A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AF048F-B651-4BD7-9A86-42E71DC77A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AF048F-B651-4BD7-9A86-42E71DC77A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AF048F-B651-4BD7-9A86-42E71DC77A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A4A8D7-7F44-4BC1-AEBD-5465BA66B108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A4A8D7-7F44-4BC1-AEBD-5465BA66B108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A4A8D7-7F44-4BC1-AEBD-5465BA66B108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A4A8D7-7F44-4BC1-AEBD-5465BA66B108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9564BA47-4CCC-48B5-8E74-060B1EC608B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9564BA47-4CCC-48B5-8E74-060B1EC608B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9564BA47-4CCC-48B5-8E74-060B1EC608B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9564BA47-4CCC-48B5-8E74-060B1EC608B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C74769C8-03F3-4961-A6D4-F32E7B16414E} = {FD00710E-7F79-4DE7-919D-ED044DF5C0AF}
