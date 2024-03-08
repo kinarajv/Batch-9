@@ -1,5 +1,5 @@
 ﻿class Program {
-    static void Main() {
+    static async void Main() {
 
         //Thread is foreground by default
         Console.WriteLine("Program started");
@@ -10,8 +10,9 @@
      
         task1.Start();
         task2.Start();
+        await task1;
         Task[] tasks = {task1, task2};
-        Task.WaitAll(task1, task2);
+        await Task.WhenAll(task1, task2);
         Console.WriteLine("Program finished");
     }
     static void Printer() {

@@ -1,7 +1,7 @@
 ﻿class FileManager {
-    public void Write(string path, string message) {
+    public async void Write(string path, string message) {
         using (StreamWriter stream = new(path)) {
-            stream.WriteLine(message);
+            await stream.WriteLineAsync(message);
         }
     }
     public string ReadLine(string path) {
