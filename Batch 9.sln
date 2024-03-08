@@ -199,6 +199,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadvsTaskvsAsyncAwait", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelationTokenSource", "CancelationTokenSource\CancelationTokenSource.csproj", "{165DF1E1-8E13-4E93-B05D-4FE07C88B4DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadlock", "Deadlock\Deadlock.csproj", "{6C86A521-276A-45C5-AC8C-F151FD657977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCondition", "RaceCondition\RaceCondition.csproj", "{F82A92B8-49F5-4D50-B35B-C2BE19002149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockMechanism", "LockMechanism\LockMechanism.csproj", "{7695AC7D-4FC9-49A5-B14A-93B7F0D762FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -572,6 +578,18 @@ Global
 		{165DF1E1-8E13-4E93-B05D-4FE07C88B4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{165DF1E1-8E13-4E93-B05D-4FE07C88B4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{165DF1E1-8E13-4E93-B05D-4FE07C88B4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C86A521-276A-45C5-AC8C-F151FD657977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C86A521-276A-45C5-AC8C-F151FD657977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C86A521-276A-45C5-AC8C-F151FD657977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C86A521-276A-45C5-AC8C-F151FD657977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82A92B8-49F5-4D50-B35B-C2BE19002149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82A92B8-49F5-4D50-B35B-C2BE19002149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82A92B8-49F5-4D50-B35B-C2BE19002149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82A92B8-49F5-4D50-B35B-C2BE19002149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7695AC7D-4FC9-49A5-B14A-93B7F0D762FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7695AC7D-4FC9-49A5-B14A-93B7F0D762FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7695AC7D-4FC9-49A5-B14A-93B7F0D762FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7695AC7D-4FC9-49A5-B14A-93B7F0D762FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9564BA47-4CCC-48B5-8E74-060B1EC608B3} = {FD00710E-7F79-4DE7-919D-ED044DF5C0AF}
