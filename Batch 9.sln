@@ -217,6 +217,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONSerializeWrite", "JSONS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSerializer", "XMLSerializer\XMLSerializer.csproj", "{F38E0598-5E72-4DEF-9A7D-2505C80249B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContract", "DataContract\DataContract.csproj", "{7DFAC69F-BE63-43BC-990B-C3C3D57904A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -626,6 +628,10 @@ Global
 		{F38E0598-5E72-4DEF-9A7D-2505C80249B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F38E0598-5E72-4DEF-9A7D-2505C80249B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F38E0598-5E72-4DEF-9A7D-2505C80249B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFAC69F-BE63-43BC-990B-C3C3D57904A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFAC69F-BE63-43BC-990B-C3C3D57904A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFAC69F-BE63-43BC-990B-C3C3D57904A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFAC69F-BE63-43BC-990B-C3C3D57904A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6C86A521-276A-45C5-AC8C-F151FD657977} = {FD00710E-7F79-4DE7-919D-ED044DF5C0AF}
