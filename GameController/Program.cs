@@ -1,24 +1,19 @@
-﻿using GameControllerLib;
+using Microsoft.Extensions.Logging;
+using NLog.Extensions.Logging;
 
-class Program 
+namespace GameControllerLib;
+
+public class Program
 {
 	static void Main() 
 	{
-		AppDomain appDomain = AppDomain.CurrentDomain;
-		appDomain.UnhandledException += FatalUpdate;
-		GameController game = new(new Player(), new Board());
-		try 
+		ILoggerFactory loggerFactory = LoggerFactory.Create(log =>
 		{
-			game.GetCards(new Player());
-		}
-		catch(Exception e) 
-		{
-			//log.Error(e.Message);
-		}
-		throw new Exception("Coba Fatal");
-	}
-	static void FatalUpdate(object sender, UnhandledExceptionEventArgs args) 
-	{
-		//log.Fatal(args.ExceptionObject.ToString());
+			log.SetMinimumLevel(LogLevel.Information);
+			log.AddNLog("nlog.config");
+			//log.AddLog4Net("log4net.config");
+		});
+		ILogger<GameController> logger = loggerFactory.CreateLogger<GameController>();
+		GameController game = new GameController(new Player("yanto"), new Board(2), logger);
 	}
 }

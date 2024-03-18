@@ -1,26 +1,32 @@
+using Microsoft.Extensions.Logging;
+
 namespace GameControllerLib;
 
 public class GameController
 {
+	//Logger logger = LogManager.GetCurrentClassLogger();
+	//ILog log = LogManager.GetLogger(typeof(GameController));
+	private ILogger<GameController>? _log;
 	private Dictionary<IPlayer, HashSet<ICard>> _players;
 	private IBoard _board;
 	public event Action<ICard>? OnCardUpdate;
 
-	public GameController(IPlayer player, IBoard board)
-	{
-		_players = new()
-			{
-				{ player, new HashSet<ICard>()}
-			};
-		_board = board;
-		//log.Info("GameController created");
-	}
+    public GameController(IPlayer player, IBoard board, ILogger<GameController>? logger = null)
+    {
+        _players = new()
+            {
+                { player, new HashSet<ICard>()}
+            };
+        _board = board;
+        _log = logger;
+        //log.Info("GameController created");
+    }
 
-	public bool AddCards(IPlayer player, params ICard[] cards)
+    public bool AddCards(IPlayer player, params ICard[] cards)
 	{
 		if (!_players.TryGetValue(player, out HashSet<ICard>? playerCards))
 		{
-			//log.Warn("{player} not found while add cards");
+			_log?.LogWarning($"{player} not found while add cards");
 			return false;
 		}
 		foreach (var card in cards)
@@ -28,7 +34,7 @@ public class GameController
 			playerCards.Add(card);
 			ChangeCardStatus(card, CardStatus.OnPlayer);
 		}
-		//log.Info("{cards.Count} added to {player}");
+		_log?.LogInformation($"{cards.Length} added to {player}");
 		return true;
 	}
 
@@ -36,10 +42,10 @@ public class GameController
 	{
 		if (!_players.ContainsKey(player))
 		{
-			//log.Warn("{player} not found while get cards")
+			_log?.LogWarning($"{player} not found while get cards");
 			return Enumerable.Empty<ICard>();
 		}
-		//log.Info("Get cards for {player}")
+		_log?.LogInformation($"Get cards for {player}");
 		return _players[player];
 	}
 
