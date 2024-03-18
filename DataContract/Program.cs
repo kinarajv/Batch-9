@@ -28,12 +28,12 @@ class Program
 	static void Main() 
 	{
 		//Serializer
-		// Human human = new Human("John", 25);
+		Human human = new Human("John", 25);
 		DataContractJsonSerializer serializer = new(typeof(Human));
-		// using(FileStream sw = new("human.json", FileMode.Create))
-		// {
-		// 	serializer.WriteObject(sw, human);
-		// }
+		using(FileStream sw = new("human.json", FileMode.Create))
+		{
+			serializer.WriteObject(sw, human);
+		}
 
 		//Deserializer
 		Human result;

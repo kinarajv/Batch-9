@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj",
+      "projectUniqueName": "c:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj",
       "projectName": "HumanAddition",
-      "projectPath": "C:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj",
+      "projectPath": "c:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\HumanAddition.csproj",
       "packagesPath": "C:\\Users\\kinar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\obj\\",
+      "outputPath": "c:\\Users\\kinar\\OneDrive\\File Lama\\Desktop\\Batch 9\\HumanAddition\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kinar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -12,3 +12,4 @@ c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\refin
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\Animals.pdb
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\Animals.genruntimeconfig.cache
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\ref\Animals.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Animals\obj\Debug\net8.0\Animals.sourcelink.json
