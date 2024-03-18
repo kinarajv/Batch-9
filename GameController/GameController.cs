@@ -20,6 +20,7 @@ public class GameController
 	{
 		if (!_players.TryGetValue(player, out HashSet<ICard>? playerCards))
 		{
+			//log.Warn("{player} not found while add cards");
 			return false;
 		}
 		foreach (var card in cards)
@@ -27,6 +28,7 @@ public class GameController
 			playerCards.Add(card);
 			ChangeCardStatus(card, CardStatus.OnPlayer);
 		}
+		//log.Info("{cards.Count} added to {player}");
 		return true;
 	}
 
@@ -34,9 +36,10 @@ public class GameController
 	{
 		if (!_players.ContainsKey(player))
 		{
+			//log.Warn("{player} not found while get cards")
 			return Enumerable.Empty<ICard>();
 		}
-
+		//log.Info("Get cards for {player}")
 		return _players[player];
 	}
 

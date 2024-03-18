@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -240,6 +240,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeforeDIP", "BeforeDIP\BeforeDIP.csproj", "{0FA52590-5ABE-472F-BCAE-024D36C6C043}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProcess", "SimpleProcess\SimpleProcess.csproj", "{05AD8EB3-C9E6-4C57-B6C9-2EA465F024BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProcess_RFA", "SimpleProcess_RFA\SimpleProcess_RFA.csproj", "{0C3E12A5-B853-4B13-9F82-7E9DC7F6B823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProcess_NLog", "SimpleProcess_NLog\SimpleProcess_NLog.csproj", "{2C1AF7F4-F691-4F9B-8DC4-0672FE4886B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -694,6 +698,14 @@ Global
 		{05AD8EB3-C9E6-4C57-B6C9-2EA465F024BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05AD8EB3-C9E6-4C57-B6C9-2EA465F024BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05AD8EB3-C9E6-4C57-B6C9-2EA465F024BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3E12A5-B853-4B13-9F82-7E9DC7F6B823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3E12A5-B853-4B13-9F82-7E9DC7F6B823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3E12A5-B853-4B13-9F82-7E9DC7F6B823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3E12A5-B853-4B13-9F82-7E9DC7F6B823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C1AF7F4-F691-4F9B-8DC4-0672FE4886B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1AF7F4-F691-4F9B-8DC4-0672FE4886B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1AF7F4-F691-4F9B-8DC4-0672FE4886B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1AF7F4-F691-4F9B-8DC4-0672FE4886B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5668966F-512B-49DB-8F9E-75B4B59EBE67} = {A7C0A865-97EB-4D30-A2B4-6470E2830FE0}
