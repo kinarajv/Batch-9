@@ -12,3 +12,4 @@ c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\EnumsToArray\obj\Debug\net8.0\
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\EnumsToArray\obj\Debug\net8.0\EnumsToArray.pdb
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\EnumsToArray\obj\Debug\net8.0\EnumsToArray.genruntimeconfig.cache
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\EnumsToArray\obj\Debug\net8.0\ref\EnumsToArray.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\EnumsToArray\obj\Debug\net8.0\EnumsToArray.sourcelink.json

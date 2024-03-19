@@ -12,3 +12,4 @@ c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\HumanAddition.pdb
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\HumanAddition.genruntimeconfig.cache
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\ref\HumanAddition.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\HumanAddition\obj\Debug\net8.0\HumanAddition.sourcelink.json

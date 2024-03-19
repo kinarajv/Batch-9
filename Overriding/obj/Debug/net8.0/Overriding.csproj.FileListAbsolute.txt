@@ -12,3 +12,4 @@ c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\re
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\Overriding.pdb
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\Overriding.genruntimeconfig.cache
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\ref\Overriding.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Overriding\obj\Debug\net8.0\Overriding.sourcelink.json

@@ -12,3 +12,4 @@ c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\ProjectC\obj\Debug\net8.0\refi
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\ProjectC\obj\Debug\net8.0\ProjectC.pdb
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\ProjectC\obj\Debug\net8.0\ProjectC.genruntimeconfig.cache
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\ProjectC\obj\Debug\net8.0\ref\ProjectC.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\ProjectC\obj\Debug\net8.0\ProjectC.sourcelink.json

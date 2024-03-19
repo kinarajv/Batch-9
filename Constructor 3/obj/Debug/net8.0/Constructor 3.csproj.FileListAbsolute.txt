@@ -12,3 +12,4 @@ c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Constructor 3\obj\Debug\net8.0
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Constructor 3\obj\Debug\net8.0\Constructor 3.pdb
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Constructor 3\obj\Debug\net8.0\Constructor 3.genruntimeconfig.cache
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Constructor 3\obj\Debug\net8.0\ref\Constructor 3.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Constructor 3\obj\Debug\net8.0\Constructor 3.sourcelink.json

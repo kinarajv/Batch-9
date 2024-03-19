@@ -12,3 +12,4 @@ C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\refint\CL
 C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\CLA.pdb
 C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\CLA.genruntimeconfig.cache
 C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\ref\CLA.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\CLA\obj\Debug\net8.0\CLA.sourcelink.json

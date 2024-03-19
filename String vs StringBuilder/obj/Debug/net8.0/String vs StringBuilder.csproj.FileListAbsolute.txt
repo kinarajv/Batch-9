@@ -12,3 +12,4 @@ c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\String vs StringBuilder\obj\De
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\String vs StringBuilder\obj\Debug\net8.0\String vs StringBuilder.pdb
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\String vs StringBuilder\obj\Debug\net8.0\String vs StringBuilder.genruntimeconfig.cache
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\String vs StringBuilder\obj\Debug\net8.0\ref\String vs StringBuilder.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\String vs StringBuilder\obj\Debug\net8.0\String vs StringBuilder.sourcelink.json

@@ -12,3 +12,4 @@ c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\re
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\Interfaces.pdb
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\Interfaces.genruntimeconfig.cache
 c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\ref\Interfaces.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 9\Interfaces\obj\Debug\net8.0\Interfaces.sourcelink.json
