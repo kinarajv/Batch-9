@@ -249,6 +249,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorBaru", "Calculato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorBaru.Test", "CalculatorBaru.Test\CalculatorBaru.Test.csproj", "{BAB4B915-AF5F-492A-A9FA-B7B18ACE2405}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorBaru.Test2", "CalculatorBaru.Test2\CalculatorBaru.Test2.csproj", "{6DFED105-4505-43E0-B5B1-830428A3BF18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -718,6 +720,10 @@ Global
 		{BAB4B915-AF5F-492A-A9FA-B7B18ACE2405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAB4B915-AF5F-492A-A9FA-B7B18ACE2405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAB4B915-AF5F-492A-A9FA-B7B18ACE2405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFED105-4505-43E0-B5B1-830428A3BF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFED105-4505-43E0-B5B1-830428A3BF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFED105-4505-43E0-B5B1-830428A3BF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFED105-4505-43E0-B5B1-830428A3BF18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5668966F-512B-49DB-8F9E-75B4B59EBE67} = {A7C0A865-97EB-4D30-A2B4-6470E2830FE0}
