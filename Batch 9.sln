@@ -245,6 +245,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProcess_RFA", "Simple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProcess_NLog", "SimpleProcess_NLog\SimpleProcess_NLog.csproj", "{2C1AF7F4-F691-4F9B-8DC4-0672FE4886B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorBaru", "CalculatorBaru\CalculatorBaru.csproj", "{1E588320-9CBA-438B-B96E-733866C5C7D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorBaru.Test", "CalculatorBaru.Test\CalculatorBaru.Test.csproj", "{BAB4B915-AF5F-492A-A9FA-B7B18ACE2405}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -706,6 +710,14 @@ Global
 		{2C1AF7F4-F691-4F9B-8DC4-0672FE4886B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C1AF7F4-F691-4F9B-8DC4-0672FE4886B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C1AF7F4-F691-4F9B-8DC4-0672FE4886B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E588320-9CBA-438B-B96E-733866C5C7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E588320-9CBA-438B-B96E-733866C5C7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E588320-9CBA-438B-B96E-733866C5C7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E588320-9CBA-438B-B96E-733866C5C7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB4B915-AF5F-492A-A9FA-B7B18ACE2405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB4B915-AF5F-492A-A9FA-B7B18ACE2405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB4B915-AF5F-492A-A9FA-B7B18ACE2405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB4B915-AF5F-492A-A9FA-B7B18ACE2405}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5668966F-512B-49DB-8F9E-75B4B59EBE67} = {A7C0A865-97EB-4D30-A2B4-6470E2830FE0}
