@@ -257,6 +257,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameController.Test", "Game
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkTutorial", "EntityFrameworkTutorial\EntityFrameworkTutorial.csproj", "{0F6AFBD1-D12E-45FF-8671-10B43B0D113A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirst", "EFCodeFirst\EFCodeFirst.csproj", "{07457D7C-251A-4A6C-8DD6-5D32A71B9024}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -742,6 +744,10 @@ Global
 		{0F6AFBD1-D12E-45FF-8671-10B43B0D113A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F6AFBD1-D12E-45FF-8671-10B43B0D113A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F6AFBD1-D12E-45FF-8671-10B43B0D113A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07457D7C-251A-4A6C-8DD6-5D32A71B9024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07457D7C-251A-4A6C-8DD6-5D32A71B9024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07457D7C-251A-4A6C-8DD6-5D32A71B9024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07457D7C-251A-4A6C-8DD6-5D32A71B9024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F8DC7DC2-1E61-4134-B5E0-8E8C80341232} = {A7C0A865-97EB-4D30-A2B4-6470E2830FE0}
