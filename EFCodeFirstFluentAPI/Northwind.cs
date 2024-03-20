@@ -10,7 +10,7 @@ public class Northwind : DbContext
 	{
 		//optionsBuilder.UseSqlite("Data Source=Northwind.db");
 		//Must install :
-		// - Npgsql.EntityFrameworkCore.PostgreSQL
+		// - Npgsql.EntityFrameworkCore.PostgreSQL (NuGet Package Manager)
 		// - PostgreSQL
 		optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=mydatabase;Username=postgres;Password=postgres");
 	}
