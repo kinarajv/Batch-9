@@ -41,6 +41,16 @@ public class GameControllerTests
 		bool result = _game.AddCards(newPlayer.Object, card.Object);
 		//Assert
 		Assert.IsFalse(result);
+		CollectionAssert.AreNotEquivalent()
 		card.Verify(card => card.SetStatus(It.IsAny<CardStatus>()), Times.Never);
 	}
 }
+
+//Arrange
+Tile tile = Tiles[0];
+
+//Act
+Shuffle
+
+//Assert
+Assert.AreNotEqual(tile, Tiles[0]);
