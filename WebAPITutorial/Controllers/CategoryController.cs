@@ -1,24 +1,39 @@
 using System.Net.NetworkInformation;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebAPITutorial.Data;
 using WebAPITutorial.Model;
+using WebAPITutorial.Model.DTOs;
 
 namespace WebAPITutorial.Controllers;
 
 public class CategoryController : APIBaseController
 {
 	private readonly DataContext _db;
-	public CategoryController(DataContext db)
+	private readonly IMapper _mapper;
+	public CategoryController(DataContext db, IMapper mapper)
 	{
 		_db = db;
+		_mapper = mapper;
 	}
 
 	[HttpGet]
 	public IActionResult GetAllCategory()
 	{
-		var categories = _db.Categories.Include(c => c.Products).ToList();
-		return Ok(categories);
+		//DTO (Data Transfer Object)
+		List<Category> categories = _db.Categories.ToList();
+        // List<CategoryDTO> categoriesRespond = new();
+        // foreach(var category in categories)
+        // {
+        // 	categoriesRespond.Add(new CategoryDTO
+        // 	{
+        // 		CategoryName = category.CategoryName,
+        // 		Description = category.Description
+        // 	});
+        // }
+        List<CategoryDTO> categoriesRespond = _mapper.Map<List<CategoryDTO>>(categories);
+		return Ok(categoriesRespond);
 	}
 	[HttpGet("{id}")]
 	public IActionResult GetCategory(int id)
@@ -31,12 +46,13 @@ public class CategoryController : APIBaseController
 		return Ok(category);
 	}
 	[HttpPost]
-	public IActionResult AddCategory([FromBody]Category? category) 
+	public IActionResult AddCategory([FromBody]CategoryDTO? categoryRequest) 
 	{
-		if(category is null) 
+		if(categoryRequest is null) 
 		{
 			return NotFound();
 		}
+		Category category = _mapper.Map<Category>(categoryRequest);
 		_db.Categories.Add(category);
 		_db.SaveChanges();
 		return Ok(category);
