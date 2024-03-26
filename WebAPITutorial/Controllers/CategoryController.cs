@@ -5,24 +5,25 @@ using Microsoft.EntityFrameworkCore;
 using WebAPITutorial.Data;
 using WebAPITutorial.Model;
 using WebAPITutorial.Model.DTOs;
+using WebAPITutorial.Repositories;
 
 namespace WebAPITutorial.Controllers;
 
 public class CategoryController : APIBaseController
 {
-	private readonly DataContext _db;
+	private readonly ICategoryRepository _categoryRepository;
 	private readonly IMapper _mapper;
-	public CategoryController(DataContext db, IMapper mapper)
-	{
-		_db = db;
-		_mapper = mapper;
-	}
+    public CategoryController(IMapper mapper, ICategoryRepository categoryRepository)
+    {
+        _mapper = mapper;
+        _categoryRepository = categoryRepository;
+    }
 
-	[HttpGet]
+    [HttpGet]
 	public IActionResult GetAllCategory()
 	{
 		//DTO (Data Transfer Object)
-		List<Category> categories = _db.Categories.ToList();
+		List<Category> categories = _categoryRepository.GetAll().ToList();
 		// List<CategoryDTO> categoriesRespond = new();
 		// foreach(var category in categories)
 		// {
@@ -38,7 +39,7 @@ public class CategoryController : APIBaseController
 	[HttpGet("{id}")]
 	public IActionResult GetCategory(int id)
 	{
-		var category = _db.Categories.Include(c => c.Products).FirstOrDefault(c => c.CategoryId == id);
+		var category = _categoryRepository.Get(c => c.CategoryId == id).FirstOrDefault();
 		if (category == null)
 		{
 			return NotFound();
@@ -53,8 +54,8 @@ public class CategoryController : APIBaseController
 			return NotFound();
 		}
 		Category category = _mapper.Map<Category>(categoryRequest);
-		_db.Categories.Add(category);
-		_db.SaveChanges();
+		_categoryRepository.Add(category);
+		_categoryRepository.Save();
 		return Ok(category);
 	}
 	[HttpPut]
@@ -65,7 +66,7 @@ public class CategoryController : APIBaseController
 		{
 			return NotFound("Category not found!");
 		}
-		var existingCategory = _db.Categories.FirstOrDefault(c => c.CategoryId == id);
+		var existingCategory = _categoryRepository.Get(c => c.CategoryId == id).FirstOrDefault();
 		if(existingCategory is null) 
 		{
 			return NotFound(
@@ -80,7 +81,7 @@ public class CategoryController : APIBaseController
 		{
 			existingCategory.Description = category.Description;
 		}
-		_db.SaveChanges();
+		_categoryRepository.Save();
 		return Ok(existingCategory);
 	}
 }
