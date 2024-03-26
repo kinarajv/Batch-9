@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HumanTypeEnum")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b80c6753680b7fc0900a9b36fade0c005b5c56ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d6723465c3f0d1c89a6d63cb6900f2b5c285f74")]
 [assembly: System.Reflection.AssemblyProductAttribute("HumanTypeEnum")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HumanTypeEnum")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

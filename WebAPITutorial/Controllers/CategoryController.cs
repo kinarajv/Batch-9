@@ -23,16 +23,16 @@ public class CategoryController : APIBaseController
 	{
 		//DTO (Data Transfer Object)
 		List<Category> categories = _db.Categories.ToList();
-        // List<CategoryDTO> categoriesRespond = new();
-        // foreach(var category in categories)
-        // {
-        // 	categoriesRespond.Add(new CategoryDTO
-        // 	{
-        // 		CategoryName = category.CategoryName,
-        // 		Description = category.Description
-        // 	});
-        // }
-        List<CategoryDTO> categoriesRespond = _mapper.Map<List<CategoryDTO>>(categories);
+		// List<CategoryDTO> categoriesRespond = new();
+		// foreach(var category in categories)
+		// {
+		// 	categoriesRespond.Add(new CategoryDTO
+		// 	{
+		// 		CategoryName = category.CategoryName,
+		// 		Description = category.Description
+		// 	});
+		// }
+		List<CategoryDTO> categoriesRespond = _mapper.Map<List<CategoryDTO>>(categories);
 		return Ok(categoriesRespond);
 	}
 	[HttpGet("{id}")]
@@ -57,8 +57,9 @@ public class CategoryController : APIBaseController
 		_db.SaveChanges();
 		return Ok(category);
 	}
-	[HttpPut("{id}")]
-	public IActionResult UpdateCategory(int id, Category? category) 
+	[HttpPut]
+	[Route("{id}")]
+	public IActionResult UpdateCategory([FromRoute]int id, [FromBody]CategoryDTO category) 
 	{
 		if(category is null) 
 		{
