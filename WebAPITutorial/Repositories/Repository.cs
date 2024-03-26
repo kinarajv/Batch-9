@@ -49,9 +49,9 @@ public class Repository<T> : IRepository<T> where T : class
 		return true;
 	}
 
-	public int Save()
+	public async Task<int> Save()
 	{
-		return _db.SaveChanges();
+		return await _db.SaveChangesAsync();
 	}
 
 }

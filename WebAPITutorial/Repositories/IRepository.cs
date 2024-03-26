@@ -10,5 +10,5 @@ public interface IRepository<T> where T : class
 	bool AddRange(IEnumerable<T> entities);
 	bool Remove(T entity);
 	bool RemoveRange(IEnumerable<T> entities);
-	int Save();
+	Task<int> Save();
 }

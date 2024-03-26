@@ -13,13 +13,13 @@ public class CategoryController : APIBaseController
 {
 	private readonly ICategoryRepository _categoryRepository;
 	private readonly IMapper _mapper;
-    public CategoryController(IMapper mapper, ICategoryRepository categoryRepository)
-    {
-        _mapper = mapper;
-        _categoryRepository = categoryRepository;
-    }
+	public CategoryController(IMapper mapper, ICategoryRepository categoryRepository)
+	{
+		_mapper = mapper;
+		_categoryRepository = categoryRepository;
+	}
 
-    [HttpGet]
+	[HttpGet]
 	public IActionResult GetAllCategory()
 	{
 		//DTO (Data Transfer Object)
